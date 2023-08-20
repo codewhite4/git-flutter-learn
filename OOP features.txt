@@ -1,0 +1,41 @@
+Dart or Flutter Notes
+Konu : Dry coding ve OOP
+
+OOP:
+
+OOP (Object-Oriented Programming) açılım olarak nesne tabanlı programlama diyebiliriz,
+4 ana temel üzerinde olan bu yapı aslında farklı konuları ele alan ve temelde öenmli bir oluşumdan bahseder
+1.Encapsulation (Kapsülleme)
+
+Bu yapı aslında OOP de Sınıflar veya şablonlar arasında tutulan kodların çalışma şeklidir
+
+Veriler gizlenir 
+Veriler yeniden kullanılır
+İhtiyaca göre esnek kod yapısı oluşturulur
+
+Dart, bir sınıftaki tüm alanlar için örtülü alıcılar ve ayarlayıcılar oluşturur, böylece verilere tüketiciler tarafından nasıl erişilebileceğini ve verilerin nasıl değişeceğini tanımlayabilirsiniz.
+Dart'ta bir tanımlayıcı (sınıf, sınıf üyesi, üst düzey işlev veya değişken) bir alt çizgi( _) ile başlıyorsa, kitaplığına özeldir.
+
+2.Inheritance (Miras) 
+
+Bu yapı aslında sınıflandırılan kod dizaynının aktarımı veya HTML deki ebeveyn çocuk ilişikisindeki gibi görebiliriz.
+Ana sınıflar içinde barındırdığı kodlara etki eder demo oluşturuşabilir.
+
+--Dart, diğer diller gibi bir yönerge içermez ; yani, bir sınıf her zaman genişletilebilir (çocuk sahibi olabilir). final class
+--Dart, sınıf işlevlerini doğrudan kalıtım olmadan genişletmek, çoklu kalıtımı simüle etmek ve kodu yeniden kullanmak için kullanılabilen karışımlar için özel desteğe sahiptir.
+
+3.Abstraction (Soyutlama)
+
+Burada kullanıcıya karmaşıklık yerine asıl istediği işlem veya asıl yapılması gereken olay gösterilir.
+Olayları bütün olarak görmemizi basitleştirir.
+
+--Dart, her sınıfı bir arabirim haline getiren ve başkaları tarafından genişletilmeden uygulanmasına izin veren güçlü örtülü arabirim konseptine sahiptir.
+
+4.Polymorphism (Polimorfizm)
+
+Benzer davranışa sahip ögeler yapılır.
+Kalıtım yoluyla elde edilir.
+
+--Dart, geçersiz kılınan ana yöntemlerin orijinal davranışlarını değiştirmesine izin verir.
+--Dart , aşina olabileceğiniz şekilde aşırı yüklemeye izin vermez 
+
